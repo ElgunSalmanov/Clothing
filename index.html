@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clothing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Style/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <img class="logo" src="./Assets/Images/logo.jpg" alt="Logo" />
+
+        <ul class="list">
+          <li class="list__item">
+            <a class="list__item-link" href="#">Home</a>
+          </li>
+
+          <li class="list__item">
+            <a class="list__item-link" href="#">About</a>
+          </li>
+
+          <li class="list__item">
+            <a class="list__item-link" href="#">Contact</a>
+          </li>
+        </ul>
+
+        <form class="form">
+          <img
+            class="form__img"
+            src="./Assets/Images/search.svg"
+            alt="Search icon"
+          />
+
+          <input
+            class="form__input"
+            type="text"
+            placeholder="Search for products"
+          />
+        </form>
+
+        <div class="elements__container">
+          <a href="#" class="elements active">
+            <img
+              class="elements__img"
+              src="./Assets/Images/user.svg"
+              alt="User image"
+            />
+            <p class="elements__text">Profile</p>
+          </a>
+
+          <a href="#" class="elements">
+            <img
+              class="elements__img"
+              src="./Assets/Images/heart.svg"
+              alt="Wishlist image"
+            />
+            <p class="elements__text">Wishlist</p>
+          </a>
+
+          <a href="#" class="elements">
+            <img
+              class="elements__img"
+              src="./Assets/Images/shopping-bag.svg"
+              alt="Bag image"
+            />
+            <p class="elements__text">Bag</p>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="login">
+        <img class="login__img" src="./Assets/Images/price.png" alt="" />
+
+        <div class="login__header">
+          <h4 class="login__title">
+            Login <span class="color">or</span> Signup
+          </h4>
+
+          <form class="login__form">
+            <input
+              class="login__form-input"
+              type="text"
+              placeholder="+ 91 | 0123456789"
+            />
+          </form>
+
+          <button class="login__button">Continue</button>
+        </div>
+      </section>
+      <section class="verified">
+        <img class="verified__img" src="./Assets/Images/verified.png" alt="" />
+
+        <h4 class="verified__title">Already have an account?</h4>
+
+        <div class="verified__button">
+          <button class="verified__button-design">
+            <img src="./Assets/Images/facebook.png" alt="" />
+            Facebook
+          </button>
+          <button class="verified__button-design">
+            <img src="./Assets/Images/google.png" alt="" />
+            Google
+          </button>
+        </div>
+        <div class="verified__button">
+          <button class="verified__button-email">
+            <img src="./Assets/Images/gmail.png" alt="" />
+            Login with email
+          </button>
+        </div>
+        <p class="verified__text color">Or</p>
+        <h4 class="verified__content">New to Prada?</h4>
+        <div class="verified__button">
+          <button class="verified__button-create">
+            <img src="./Assets/Images/user.png" alt="" />
+            Create new account
+          </button>
+        </div>
+      </section>
+      <section class="otp">
+        <img class="otp__img" src="./Assets/Images/phone.png" alt="" />
+
+        <div class="otp__header">
+          <h4 class="otp__title">Verify With OTP</h4>
+          <p class="otp__description color">Sent to: 0123456789</p>
+        </div>
+
+        <form class="otp__form">
+          <input class="otp__form-input" type="text" required maxlength="1" />
+
+          <input class="otp__form-input" type="text" required maxlength="1" />
+
+          <input class="otp__form-input" type="text" required maxlength="1" />
+
+          <input class="otp__form-input" type="text" required maxlength="1" />
+        </form>
+
+        <div class="otp__content">
+          <p class="otp__text color">
+            Resend OTP In: <span class="otp__text-strong">00.28</span>
+          </p>
+        </div>
+
+        <div class="otp__content">
+          <p class="otp__text color">
+            Log In Using <span class="otp__text-color">Password</span>
+          </p>
+        </div>
+
+        <div class="otp__content">
+          <p class="otp__text color">
+            Having Trouble Logging In ?
+            <span class="otp__text-color">Get Help</span>
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
